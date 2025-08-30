@@ -1,5 +1,8 @@
 Participant: Xenia Semilovsky, 305120502, xesemilovsky@stud.mediadesign.de.
 
+This is a Processing File. Download Processing here: https://processing.org/download 
+Start the simulation by clicking on the Play Button in the Processing sketch.
+
 Description of Implemented Physics System:
 - Projectile Motion (Gravity, vertical velocity)
 - Magnus Effect (Spin Lift, Downforce depending on ball spin direction)
@@ -22,7 +25,7 @@ Kinematic Tracking & State Events:
 
 Camera & Simulation Mechanics:
 - Camera follow system: smooth lerp towards ball, zooms out after first bounce
-- Simulation States: PENDING -> RUNNING -> POST1_ZOOMOUT -> POST"_WAIT
+- Simulation States: PENDING -> RUNNING -> POST1_ZOOMOUT -> POST2_WAIT
 - Countdown reset system after bounces
 
 Controls:
